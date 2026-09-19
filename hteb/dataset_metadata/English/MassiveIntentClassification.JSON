@@ -1,0 +1,17 @@
+{
+  "schema_version": 3,
+  "dataset": "MassiveIntentClassification",
+  "task_type": "classification",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/amazon_massive_intent",
+    "revision": "940fd47a81eaa7f2cc7b129674d945d618ac38c2",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "train_split": "train",
+    "language_configs": [
+      "en"
+    ]
+  }
+}

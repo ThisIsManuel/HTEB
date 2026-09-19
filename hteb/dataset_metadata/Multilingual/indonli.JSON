@@ -1,0 +1,14 @@
+{
+  "schema_version": 3,
+  "dataset": "indonli",
+  "task_type": "pair_classification",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/indonli",
+    "revision": "35fe7d5cb2d7e7259184a3afe739190c1655381f",
+    "languages": [
+      "ind"
+    ],
+    "eval_split": "test_expert",
+    "hf_subset": "default"
+  }
+}

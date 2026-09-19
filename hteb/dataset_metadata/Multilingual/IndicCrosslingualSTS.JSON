@@ -1,0 +1,38 @@
+{
+  "schema_version": 3,
+  "dataset": "IndicCrosslingualSTS",
+  "task_type": "sts",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/IndicCrosslingualSTS",
+    "revision": "c4d2c4d658ff6dbf1d373d44cc558c9f1bb16f52",
+    "languages": [
+      "eng-asm",
+      "eng-ben",
+      "eng-guj",
+      "eng-hin",
+      "eng-kan",
+      "eng-mal",
+      "eng-mar",
+      "eng-ory",
+      "eng-pan",
+      "eng-tam",
+      "eng-tel",
+      "eng-urd"
+    ],
+    "eval_split": "test",
+    "language_configs": [
+      "en-as",
+      "en-bn",
+      "en-gu",
+      "en-hi",
+      "en-kn",
+      "en-ml",
+      "en-mr",
+      "en-or",
+      "en-pa",
+      "en-ta",
+      "en-te",
+      "en-ur"
+    ]
+  }
+}

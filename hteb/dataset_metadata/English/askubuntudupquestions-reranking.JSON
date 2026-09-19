@@ -1,0 +1,13 @@
+{
+  "schema_version": 3,
+  "dataset": "askubuntudupquestions-reranking",
+  "task_type": "reranking",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/askubuntudupquestions-reranking",
+    "revision": "4d853f94cd57d85ec13805aeeac3ae3e5eb4c49c",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test"
+  }
+}

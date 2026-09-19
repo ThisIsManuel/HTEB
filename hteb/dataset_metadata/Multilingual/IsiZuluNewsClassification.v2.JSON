@@ -1,0 +1,18 @@
+{
+  "schema_version": 3,
+  "dataset": "IsiZuluNewsClassification.v2",
+  "task_type": "classification",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/isi_zulu_news",
+    "revision": "45708aaaf9c6133227ea5db5cf26571facb9ccdb",
+    "languages": [
+      "zul"
+    ],
+    "eval_split": "test",
+    "train_split": "train",
+    "split_counts": {
+      "train": 373,
+      "test": 373
+    }
+  }
+}

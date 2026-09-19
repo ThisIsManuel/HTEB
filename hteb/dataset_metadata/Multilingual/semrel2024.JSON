@@ -1,0 +1,42 @@
+{
+  "schema_version": 3,
+  "dataset": "semrel2024",
+  "task_type": "str",
+  "dataset_metadata": {
+    "hf_dataset_name": "SemRel/SemRel2024",
+    "revision": "ef5c383d1b87eb8feccde3dfb7f95e42b1b050dd",
+    "languages": [
+      "afr",
+      "amh",
+      "arb",
+      "arq",
+      "ary",
+      "eng",
+      "esp",
+      "hau",
+      "hin",
+      "ind",
+      "kin",
+      "mar",
+      "pan",
+      "tel"
+    ],
+    "eval_split": "test",
+    "language_configs": [
+      "afr",
+      "amh",
+      "arb",
+      "arq",
+      "ary",
+      "eng",
+      "esp",
+      "hau",
+      "hin",
+      "ind",
+      "kin",
+      "mar",
+      "pan",
+      "tel"
+    ]
+  }
+}

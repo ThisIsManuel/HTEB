@@ -1,0 +1,14 @@
+{
+  "schema_version": 3,
+  "dataset": "TwitterURLCorpus",
+  "task_type": "pair_classification",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/twitterurlcorpus-pairclassification",
+    "revision": "ee5d15331196ec9f72e8393779b20098c10e29f6",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "hf_subset": "default"
+  }
+}

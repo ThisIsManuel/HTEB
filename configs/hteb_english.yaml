@@ -1,0 +1,84 @@
+# GENERATION
+load_existing_transformations: false
+transformations_directory: data/transformations
+generator_model: cyankiwi/gemma-4-31B-it-AWQ-4bit
+selection:
+  datasets: english
+  transformations:
+  - backtranslation
+  - cross_translation
+  - expansion
+  - paraphrasing
+  - style_change
+  - summarise
+  - summarised_expansion
+  - translation
+  seed_transform:
+  - 1337
+  - 1338
+  - 1339
+generation:
+  transform_corpus: true
+  trust_remote_code: false
+  tensor_parallel_size: 1
+  devices: [0]
+  batch_size: 32
+  max_retries: 3
+  max_model_length_default: 4096
+  max_tokens_default: 512
+  max_tokens_expansion_default: 1024
+
+# EVALUATION
+emb_models:
+- model_id: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+  settings:
+    normalize_embeddings: false
+    batch_size: 64
+- model_id: jinaai/jina-embeddings-v5-text-nano
+  settings:
+    normalize_embeddings: false
+    encode_kwargs:
+      classification:
+        task: classification
+      clustering:
+        task: clustering
+      retrieval:
+        task: retrieval
+      reranking:
+        task: retrieval
+      sts:
+        task: text-matching
+      str:
+        task: text-matching
+      summarisation:
+        task: text-matching
+      pair_classification:
+        task: text-matching
+    batch_size: 64
+- model_id: microsoft/harrier-oss-v1-0.6b
+  settings:
+    normalize_embeddings: false
+    batch_size: 64
+    prompt_names:
+      retrieval:
+        query: web_search_query
+        document: null
+      reranking:
+        query: web_search_query
+        document: null
+      sts:
+        text: sts_query
+      str:
+        text: sts_query
+- model_id: Qwen/Qwen3-Embedding-0.6B
+  settings:
+    normalize_embeddings: false
+    batch_size: 64
+evaluation:
+  trust_remote_code: true
+  dtype: bfloat16
+  devices: [0]
+  seed_evaluation:
+  - 1337
+  - 1338
+  - 1339

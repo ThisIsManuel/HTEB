@@ -1,0 +1,31 @@
+{
+  "schema_version": 3,
+  "dataset": "arguana",
+  "task_type": "retrieval",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/arguana",
+    "revision": "6c1bcf74b13dfd823aff056b79d4d93e702f19c7",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "ignore_identical_ids": true,
+    "components": [
+      {
+        "part": "corpus",
+        "config": "corpus",
+        "split": "corpus"
+      },
+      {
+        "part": "queries",
+        "config": "queries",
+        "split": "queries"
+      },
+      {
+        "part": "qrels",
+        "config": "default",
+        "split": "test"
+      }
+    ]
+  }
+}

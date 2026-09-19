@@ -1,0 +1,38 @@
+{
+  "english": [
+    "AmazonCounterfactualClassification",
+    "banking77",
+    "MassiveIntentClassification",
+    "BiorxivClusteringS2S",
+    "MedrxivClusteringS2S",
+    "TwentyNewsgroupsClustering",
+    "SprintDuplicateQuestions",
+    "twittersemeval2015-pairclassification",
+    "TwitterURLCorpus",
+    "askubuntudupquestions-reranking",
+    "SciDocsRR",
+    "StackOverflowDupQuestions",
+    "arguana",
+    "CQADupstackGamingRetrieval",
+    "SciFact",
+    "semrel2024",
+    "biosses-sts",
+    "stsbenchmark-sts",
+    "summeval"
+  ],
+  "multilingual": [
+    "IsiZuluNewsClassification.v2",
+    "SentimentAnalysisHindi.v2",
+    "MasakhaNEWSClusteringS2S",
+    "PlscClusteringS2S.v2",
+    "rte3",
+    "indonli",
+    "VoyageMMarcoReranking",
+    "NamaaMrTydiReranking",
+    "TwitterHjerneRetrieval",
+    "Ko-StrategyQA",
+    "semrel2024",
+    "sts17-crosslingual-sts",
+    "IndicCrosslingualSTS"
+  ]
+}

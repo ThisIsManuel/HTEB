@@ -1,0 +1,30 @@
+{
+  "schema_version": 3,
+  "dataset": "TwitterHjerneRetrieval",
+  "task_type": "retrieval",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/TwitterHjerneRetrieval",
+    "revision": "97ad55673cf9746f8e4b3aaa92b1bb92d82e52db",
+    "languages": [
+      "dan"
+    ],
+    "eval_split": "train",
+    "components": [
+      {
+        "part": "corpus",
+        "config": "corpus",
+        "split": "train"
+      },
+      {
+        "part": "queries",
+        "config": "queries",
+        "split": "train"
+      },
+      {
+        "part": "qrels",
+        "config": "qrels",
+        "split": "train"
+      }
+    ]
+  }
+}

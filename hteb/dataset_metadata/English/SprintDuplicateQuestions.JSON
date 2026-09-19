@@ -1,0 +1,14 @@
+{
+  "schema_version": 3,
+  "dataset": "SprintDuplicateQuestions",
+  "task_type": "pair_classification",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/sprintduplicatequestions-pairclassification",
+    "revision": "58edec77c9d5106bf6070489e9c0a73c69b6c4c0",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "hf_subset": "default"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 3,
+  "dataset": "MedrxivClusteringS2S",
+  "task_type": "clustering",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/medrxiv-clustering-s2s",
+    "revision": "47be1a928ff641bb7dbc0e4e0c5af8363bda796c",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "hf_subset": "default",
+    "clustering_format": "nested"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 3,
+  "dataset": "StackOverflowDupQuestions",
+  "task_type": "reranking",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/stackoverflowdupquestions-reranking",
+    "revision": "ef807ea29a75ec4f91b50fd4191cb4ee4589a9f9",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test"
+  }
+}

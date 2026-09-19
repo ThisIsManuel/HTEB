@@ -1,0 +1,18 @@
+{
+  "schema_version": 3,
+  "dataset": "SentimentAnalysisHindi.v2",
+  "task_type": "classification",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/sentiment_analysis_hindi",
+    "revision": "27fc099ce1c5a7295b9231e53a37648cdef6cb79",
+    "languages": [
+      "hin"
+    ],
+    "eval_split": "test",
+    "train_split": "train",
+    "split_counts": {
+      "train": 1249,
+      "test": 1248
+    }
+  }
+}

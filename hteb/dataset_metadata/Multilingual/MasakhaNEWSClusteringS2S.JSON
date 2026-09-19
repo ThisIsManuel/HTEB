@@ -1,0 +1,47 @@
+{
+  "schema_version": 3,
+  "dataset": "MasakhaNEWSClusteringS2S",
+  "task_type": "clustering",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/MasakhaNEWSClusteringS2S",
+    "revision": "c4724b56a0ca58f2da7e3eb415726d04952e3965",
+    "languages": [
+      "amh",
+      "eng",
+      "fra",
+      "hau",
+      "ibo",
+      "lin",
+      "lug",
+      "orm",
+      "pcm",
+      "run",
+      "sna",
+      "som",
+      "swa",
+      "tir",
+      "xho",
+      "yor"
+    ],
+    "eval_split": "test",
+    "language_configs": [
+      "amh",
+      "eng",
+      "fra",
+      "hau",
+      "ibo",
+      "lin",
+      "lug",
+      "orm",
+      "pcm",
+      "run",
+      "sna",
+      "som",
+      "swa",
+      "tir",
+      "xho",
+      "yor"
+    ],
+    "clustering_format": "per_language"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 3,
+  "dataset": "SciFact",
+  "task_type": "retrieval",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/scifact",
+    "revision": "cf10ab6856b15b0e670ef8ae5dae4e266c12d035",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "components": [
+      {
+        "part": "corpus",
+        "config": "corpus",
+        "split": "corpus"
+      },
+      {
+        "part": "queries",
+        "config": "queries",
+        "split": "queries"
+      },
+      {
+        "part": "qrels",
+        "config": "default",
+        "split": "test"
+      }
+    ]
+  }
+}

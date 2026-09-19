@@ -1,0 +1,22 @@
+{
+  "schema_version": 3,
+  "dataset": "rte3",
+  "task_type": "pair_classification",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/rte3",
+    "revision": "54ea0052267265f4906dd77b0a3d041d301a5ee6",
+    "languages": [
+      "deu",
+      "eng",
+      "fra",
+      "ita"
+    ],
+    "eval_split": "test",
+    "language_configs": [
+      "de",
+      "en",
+      "fr",
+      "it"
+    ]
+  }
+}

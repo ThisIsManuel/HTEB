@@ -1,0 +1,36 @@
+{
+  "generator_model": "cyankiwi/gemma-4-31B-it-AWQ-4bit",
+  "transformation": "style_change",
+  "dataset": "banking77",
+  "seed_transform": 1337,
+  "generation_datetime": "2026-09-15T11:38:47Z",
+  "max_model_length": 4096,
+  "max_tokens": 512,
+  "max_retries": 3,
+  "generation_statistics": {
+    "records_total": 13069,
+    "records_targeted": 13069,
+    "text_fields_total": 13069,
+    "records_with_fallback": 0,
+    "text_fields_with_fallback": 0,
+    "unchanged_outputs": 4,
+    "retried_text_fields": 0,
+    "recovered_after_retry_text_fields": 0,
+    "fallback_reasons": {}
+  },
+  "data_filtering": {
+    "version": 2,
+    "task_type": "classification",
+    "input_scope": "source_records",
+    "counts_before": {
+      "records": 13069
+    },
+    "counts_after": {
+      "records": 13069
+    },
+    "excluded": [],
+    "excluded_documents": [],
+    "excluded_candidates": []
+  },
+  "source_revision": "18072d2685ea682290f7b8924d94c62acc19c0b2"
+}

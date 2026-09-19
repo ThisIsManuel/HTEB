@@ -1,0 +1,14 @@
+{
+  "schema_version": 3,
+  "dataset": "twittersemeval2015-pairclassification",
+  "task_type": "pair_classification",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/twittersemeval2015-pairclassification",
+    "revision": "d889b7b15e83d5d1352d74c387a9da926a3e6b77",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "hf_subset": "default"
+  }
+}

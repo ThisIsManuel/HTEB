@@ -1,0 +1,17 @@
+{
+  "schema_version": 3,
+  "dataset": "AmazonCounterfactualClassification",
+  "task_type": "classification",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/amazon_counterfactual",
+    "revision": "b9867e02b01002698f60c07fb8efdce8c5020ee8",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "train_split": "train",
+    "language_configs": [
+      "en"
+    ]
+  }
+}

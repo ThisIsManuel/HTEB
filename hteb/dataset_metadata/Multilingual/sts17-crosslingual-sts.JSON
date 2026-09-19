@@ -1,0 +1,36 @@
+{
+  "schema_version": 3,
+  "dataset": "sts17-crosslingual-sts",
+  "task_type": "sts",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/sts17-crosslingual-sts",
+    "revision": "bb1de64ee6fd9ccd66e0bdbadcafe990f652d887",
+    "languages": [
+      "ara-ara",
+      "eng-ara",
+      "eng-deu",
+      "eng-eng",
+      "eng-tur",
+      "spa-eng",
+      "spa-spa",
+      "fra-eng",
+      "ita-eng",
+      "nld-eng",
+      "kor-kor"
+    ],
+    "eval_split": "test",
+    "language_configs": [
+      "ar-ar",
+      "en-ar",
+      "en-de",
+      "en-en",
+      "en-tr",
+      "es-en",
+      "es-es",
+      "fr-en",
+      "it-en",
+      "nl-en",
+      "ko-ko"
+    ]
+  }
+}

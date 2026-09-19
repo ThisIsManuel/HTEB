@@ -1,0 +1,30 @@
+{
+  "schema_version": 3,
+  "dataset": "Ko-StrategyQA",
+  "task_type": "retrieval",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/Ko-StrategyQA",
+    "revision": "315b000dfa35ba4713d2a266d204e68f8ac80687",
+    "languages": [
+      "kor"
+    ],
+    "eval_split": "dev",
+    "components": [
+      {
+        "part": "corpus",
+        "config": "corpus",
+        "split": "dev"
+      },
+      {
+        "part": "queries",
+        "config": "queries",
+        "split": "dev"
+      },
+      {
+        "part": "qrels",
+        "config": "qrels",
+        "split": "dev"
+      }
+    ]
+  }
+}

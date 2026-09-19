@@ -1,0 +1,14 @@
+{
+  "schema_version": 3,
+  "dataset": "biosses-sts",
+  "task_type": "sts",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/biosses-sts",
+    "revision": "f4f1265a7a4b0c99e6da09859b887bdb1f36d8ed",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "hf_subset": "default"
+  }
+}

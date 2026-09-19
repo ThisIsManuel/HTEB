@@ -1,0 +1,14 @@
+{
+  "schema_version": 3,
+  "dataset": "stsbenchmark-sts",
+  "task_type": "sts",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/stsbenchmark-sts",
+    "revision": "96943a16ea6a35129e253c659081cb59daf81b30",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "hf_subset": "default"
+  }
+}

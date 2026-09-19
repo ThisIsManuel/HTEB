@@ -1,0 +1,15 @@
+{
+  "schema_version": 3,
+  "dataset": "PlscClusteringS2S.v2",
+  "task_type": "clustering",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/PlscClusteringS2S.v2",
+    "revision": "4f99ae4f8fc9a1074c7483d9e042fb18314261a3",
+    "languages": [
+      "pol"
+    ],
+    "eval_split": "test",
+    "hf_subset": "default",
+    "clustering_format": "nested"
+  }
+}

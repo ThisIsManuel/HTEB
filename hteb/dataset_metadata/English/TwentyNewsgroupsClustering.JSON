@@ -1,0 +1,15 @@
+{
+  "schema_version": 3,
+  "dataset": "TwentyNewsgroupsClustering",
+  "task_type": "clustering",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/twentynewsgroups-clustering",
+    "revision": "726b531f19733d606fd4abedff37afe05c3708fe",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "hf_subset": "default",
+    "clustering_format": "nested"
+  }
+}

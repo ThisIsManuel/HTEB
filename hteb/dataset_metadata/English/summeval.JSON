@@ -1,0 +1,17 @@
+{
+  "schema_version": 3,
+  "dataset": "summeval",
+  "task_type": "summarisation",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/summeval",
+    "revision": "bfc121155064afa2d81b5505682ffc0d96f4334c",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "hf_subset": "default",
+    "human_summaries_field": "human_summaries",
+    "machine_summaries_field": "machine_summaries",
+    "score_field": "relevance"
+  }
+}

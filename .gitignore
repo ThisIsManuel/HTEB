@@ -1,0 +1,25 @@
+.venv*/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*.orig
+.coverage
+htmlcov/
+/results/
+/data/
+/models/
+.env
+
+# Root Markdown documents, except the public README
+/*.md
+!/README.md
+
+/.cache/hteb/
+/.codex/
+/.agents/
+/project_knowledge/

@@ -1,0 +1,15 @@
+{
+  "schema_version": 3,
+  "dataset": "BiorxivClusteringS2S",
+  "task_type": "clustering",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/biorxiv-clustering-s2s",
+    "revision": "7e96ee33e0fbd2cb6051549dfe7637b7e46df820",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "hf_subset": "default",
+    "clustering_format": "nested"
+  }
+}

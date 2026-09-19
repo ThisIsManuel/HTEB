@@ -1,0 +1,35 @@
+{
+  "schema_version": 3,
+  "dataset": "SciDocsRR",
+  "task_type": "reranking",
+  "dataset_metadata": {
+    "hf_dataset_name": "mteb/SciDocsRR",
+    "revision": "0b22f42ce7f91639d986f17db6315a913e52e50e",
+    "languages": [
+      "eng"
+    ],
+    "eval_split": "test",
+    "components": [
+      {
+        "part": "corpus",
+        "file": "corpus/test-00000-of-00001.parquet",
+        "split": "test"
+      },
+      {
+        "part": "queries",
+        "file": "queries/test-00000-of-00001.parquet",
+        "split": "test"
+      },
+      {
+        "part": "qrels",
+        "file": "data/test-00000-of-00001.parquet",
+        "split": "test"
+      },
+      {
+        "part": "top_ranked",
+        "file": "top_ranked/test-00000-of-00001.parquet",
+        "split": "test"
+      }
+    ]
+  }
+}

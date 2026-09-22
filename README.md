@@ -182,3 +182,8 @@ HTEB provides transformations as outlined above of the BANKING77 dataset as an e
 ```
 
 BANKING77 data is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), as stated in the [dataset card](https://huggingface.co/datasets/PolyAI/banking77#licensing-information) and [github repo](https://github.com/PolyAI-LDN/task-specific-datasets/blob/master/LICENSE). HTEB's software licence does not replace these terms. Attribution does not imply endorsement by PolyAI or the original authors. When redistributing HTEB's Banking77 transformations, keep this attribution, the source and licence links, and identify any additional changes.
+
+---
+
+**AI-Usage statement:**
+Coding and the generation of this file have been assisted by OpenAI's Codex.

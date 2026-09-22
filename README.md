@@ -113,7 +113,7 @@ The project is based on our HTEB paper. When using or building on HTEB, please c
 **Preprint (v1 from May 2026, v2 from September 2026):**
 
 ```bibtex
-@misc{frank2026hardertextembeddingbenchmark,
+@misc{FrankAfli2026_HTEB_Preprint,
       title={The Harder Text Embedding Benchmark (HTEB): Beyond One-dimensional Static Robustness}, 
       author={Manuel Frank and Haithem Afli},
       year={2026},

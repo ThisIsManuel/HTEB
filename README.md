@@ -110,16 +110,17 @@ The project is based on our HTEB paper. When using or building on HTEB, please c
 }
 ```
 
-**Preprint:**
+**Preprint (v1 from May 2026, v2 from September 2026):**
 
 ```bibtex
-@misc{FrankAfli2026_HTEB_Preprint,
-  title = {The {Harder Text Embedding Benchmark} ({HTEB}): Beyond One-dimensional Static Robustness},
-  author = {Frank, Manuel and Afli, Haithem},
-  year = {2026},
-  month = may,
-  journal = {arXiv.org},
-  url = {https://arxiv.org/abs/2605.28190},
+@misc{frank2026hardertextembeddingbenchmark,
+      title={The Harder Text Embedding Benchmark (HTEB): Beyond One-dimensional Static Robustness}, 
+      author={Manuel Frank and Haithem Afli},
+      year={2026},
+      eprint={2605.28190},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.28190}, 
 }
 ```
 

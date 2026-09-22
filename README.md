@@ -1,5 +1,15 @@
 # The Harder Text Embedding Benchmark (HTEB) v1.1
 
+---
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.28190"><img src="images/arXiv-logo.svg" height="16" alt="arXiv"> Preprint</a> •
+  <span><img src="images/acl-logo.svg" height="16" alt="ACL"> EMNLP 2026 Main Paper (to appear)</span> •
+  📖 <a href="#citation">Citation</a>
+</p>
+
+---
+
 HTEB evaluates text embedding models on original and LLM-transformed inputs to measure robustness across three axes using eight deployment-oriented transformations:
 
 | Axis              | Transformation         | Description                                                                                                                                                            |

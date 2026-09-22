@@ -1,5 +1,9 @@
 # The Harder Text Embedding Benchmark (HTEB) v1.1
 
+<p align="center">
+  <strong>Beyond One-dimensional Static Robustness</strong>
+</p>
+
 ---
 
 <p align="center">

@@ -3,8 +3,10 @@
 ---
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2605.28190"><img src="images/arXiv-logo.svg" height="16" alt="arXiv"> Preprint</a> •
-  <span><img src="images/acl-logo.svg" height="16" alt="ACL"> EMNLP 2026 Main Paper (to appear)</span> •
+  <a href="https://arxiv.org/abs/2605.28190"><img src="images/arXiv-logo.svg" height="16" alt="arXiv"> Preprint</a>
+	&nbsp;&nbsp;■&nbsp;&nbsp;
+  <span><img src="images/acl-logo.svg" height="16" alt="ACL"> EMNLP 2026 Main Paper (to appear)</span>
+	&nbsp;&nbsp;■&nbsp;&nbsp;
   📖 <a href="#citation">Citation</a>
 </p>
 
